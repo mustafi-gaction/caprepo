@@ -1,0 +1,34 @@
+# This is a basic workflow to help you get started with Actions
+name: First Workflow
+on: workflow_dispatch                # Controls when the workflow will run
+jobs:                               # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+  first-job:
+    runs-on: 
+    steps:                          # Steps represent a sequence of tasks that will be executed as part of the job
+      - name: Print greeting
+        run: echo "Hello Cap"
+      - name: Print goodbye
+        run: "Done - bye!"
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
