@@ -9,7 +9,7 @@ jobs:                               # A workflow run is made up of one or more j
       - name: Print greeting
         run: echo "Hello Cap"
       - name: Print goodbye
-        run: "Done - bye!"
+        run: echo "Done - bye!"
 
         
 
